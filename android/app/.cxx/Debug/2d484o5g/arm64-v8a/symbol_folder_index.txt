@@ -1,0 +1,1 @@
+C:\Users\Admin\MapMarker\android\app\build\intermediates\cxx\Debug\2d484o5g\obj\arm64-v8a

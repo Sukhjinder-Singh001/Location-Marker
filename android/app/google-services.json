@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598299853521",
+    "project_id": "mapmarker-fa0ea",
+    "storage_bucket": "mapmarker-fa0ea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598299853521:android:7e4435a1cb508b527dbbf0",
+        "android_client_info": {
+          "package_name": "com.mapmarker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr49-jXuMXlHhT4m2nTXhiYJQPg1-ELVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

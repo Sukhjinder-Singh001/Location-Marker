@@ -1,97 +1,89 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+📍 React Native Google Maps with Firebase Integration
+This project is a React Native application that integrates Google Maps with Firebase Firestore.
 
-# Getting Started
+Users can:
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+Drop markers on the map by tapping.
 
-## Step 1: Start Metro
+Save marker location and label(Labels you need to add because location from lat long feature is PAID) in Firebase Firestore.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+Fetch and display saved markers even after app reload.
 
-```sh
-# Using npm
-npm start
+Delete markers by tapping (and remove from Firestore).
 
-# OR using Yarn
-yarn start
-```
+Bonus: Search for markers using coordinates or label names.
 
-## Step 2: Build and run your app
+Security Note: All sensitive keys (Google Maps API Key, Firebase config) are safely stored in .env file.
+.env file is NOT uploaded to GitHub (as per security best practices).
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+✨ Features
+🔵 Add markers by tapping on map.
 
-### Android
+🔵 Save marker's latitude, longitude, and label to Firestore.
 
-```sh
-# Using npm
-npm run android
+🔵 Fetch markers automatically on app start.
 
-# OR using Yarn
-yarn android
-```
+🔵 Delete markers on tap.
 
-### iOS
+🔎 Bonus: Search markers by coordinates or labels.
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+🎨 Custom App Icon and App Name.
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+✅ Validations and clean reusable components.
 
-```sh
-bundle install
-```
+🔒 Environment variables used for security (.env).
 
-Then, and every time you update your native dependencies, run:
+🚀 Setup Instructions
+Clone the Repository
 
-```sh
-bundle exec pod install
-```
+git clone https://github.com/Sukhjinder-Singh001/Location-Marker.git
+cd Location-Marker
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+Install Dependencies
+npm install
 
-```sh
-# Using npm
-npm run ios
+Set up Environment Variables
 
-# OR using Yarn
-yarn ios
-```
+Create a .env file at the root of the project with your keys:
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+FIREBASE_API_KEY=AIzaSyCpzuO4L_fJe-KjsXAjrKw-4CjUyK2e9PI
+FIREBASE_AUTH_DOMAIN=mapmarker-fa0ea.firebaseapp.com
+FIREBASE_PROJECT_ID=mapmarker-fa0ea
+FIREBASE_STORAGE_BUCKET=mapmarker-fa0ea.firebasestorage.app
+FIREBASE_MESSAGING_SENDER_ID=598299853521
+FIREBASE_APP_ID=1:598299853521:web:13b37d58c278711e7dbbf0
+FIREBASE_MEASUREMENT_ID=G-SW3WFN09C1
+FIREBASE_MESSAGING_SENDER_ID=598299853521
+GOOGLE_MAPS_API_KEY=AIzaSyAujUnBSCOPa_jyoKXCvOGpd-_awjUjelo
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+⚡ Important:
+.env file is NOT committed to GitHub.
+Make sure to manually create it before running the app.
 
-## Step 3: Modify your app
+Run the Project
 
-Now that you have successfully run the app, let's make changes!
+npx react-native run-android
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+🛠 Technology Stack
+React Native (CLI)
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+Firebase Firestore
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+react-native-maps
 
-## Congratulations! :tada:
+@react-native-community/geolocation
 
-You've successfully run and modified your React Native App. :partying_face:
+dotenv for React Native (react-native-dotenv)
 
-### Now what?
+TypeScript 
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+🔥 Bonus Features Included
+Search markers by label name or coordinates.
 
-# Troubleshooting
+Label input during marker creation.
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+App icon and app name updated for production feel.
 
-# Learn More
+Complete coding standards: reusability, clean code, validation.
 
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
