@@ -1,3 +1,4 @@
+C:\Users\Admin\MapMarker\node_modules\@react-native-community\geolocation\android\build\generated\source\codegen\jni\CMakeLists.txt
 C:\Users\Admin\MapMarker\node_modules\react-native-gesture-handler\android\build\generated\source\codegen\jni\CMakeLists.txt
 C:\Users\Admin\MapMarker\node_modules\react-native-maps\android\src\main\jni\CMakeLists.txt
 C:\Users\Admin\MapMarker\node_modules\react-native-reanimated\android\build\generated\source\codegen\jni\CMakeLists.txt

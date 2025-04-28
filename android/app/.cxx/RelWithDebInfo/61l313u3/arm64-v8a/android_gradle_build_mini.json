@@ -1,5 +1,6 @@
 {
   "buildFiles": [
+    "C:\\Users\\Admin\\MapMarker\\node_modules\\@react-native-community\\geolocation\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
     "C:\\Users\\Admin\\MapMarker\\node_modules\\react-native-gesture-handler\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
     "C:\\Users\\Admin\\MapMarker\\node_modules\\react-native-maps\\android\\src\\main\\jni\\CMakeLists.txt",
     "C:\\Users\\Admin\\MapMarker\\node_modules\\react-native-reanimated\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
@@ -72,6 +73,11 @@
     },
     "react_codegen_RNMapsSpecs::@5748abef1962d24942ec": {
       "artifactName": "react_codegen_RNMapsSpecs",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "react_codegen_RNCGeolocationSpec::@1b959fcb56e23f7716ba": {
+      "artifactName": "react_codegen_RNCGeolocationSpec",
       "abi": "arm64-v8a",
       "runtimeFiles": []
     }

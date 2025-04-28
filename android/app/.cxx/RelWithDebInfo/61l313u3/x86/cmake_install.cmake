@@ -44,6 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("C:/Users/Admin/MapMarker/android/app/.cxx/RelWithDebInfo/61l313u3/x86/RNCGeolocationSpec_autolinked_build/cmake_install.cmake")
   include("C:/Users/Admin/MapMarker/android/app/.cxx/RelWithDebInfo/61l313u3/x86/rngesturehandler_codegen_autolinked_build/cmake_install.cmake")
   include("C:/Users/Admin/MapMarker/android/app/.cxx/RelWithDebInfo/61l313u3/x86/RNMapsSpecs_autolinked_build/cmake_install.cmake")
   include("C:/Users/Admin/MapMarker/android/app/.cxx/RelWithDebInfo/61l313u3/x86/rnreanimated_autolinked_build/cmake_install.cmake")
